@@ -1,3 +1,12 @@
-# Seam-Carving-Content-Aware-Image-Resizer
+EECS 280 Project 2 
+===========================
+Image Resizing Program using a Seam-Carving Algorithm
 
-A content-aware image resizing program. It implements the seam carving algorithm — computing pixel energy via squared color differences, building a dynamic programming cost matrix, then iteratively finding and removing minimal-cost vertical seams to shrink images. The project is built in a C-style procedural paradigm using structs as ADTs, raw pointers for pass-by-reference, 1D vectors with manual row/col indexing, PPM file I/O via streams, and function overloading (e.g. Matrix_at for const/non-const).
+By Jingkai Lan <jingkail@umich.edu>
+
+## Longer Description
+Build an image resizing program using a seam-carving algorithm.
+
+The learning goals of this project include Testing, Debugging, Pointers, Arrays, Strings, Streams, IO, and Abstract Data Types in C. You’ll gain practice with C-style pointers, arrays, and structs.
+
+When you’re done, you’ll have a program that uses seam carving for content-aware resizing of images. The algorithm works by finding and removing “seams” in the image that pass through the least important pixels.
